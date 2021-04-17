@@ -1,0 +1,44 @@
+.body1 {
+    background-color: ghostwhite;
+}
+
+.Sections {
+    margin: 15px;
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 4px 8px darkgrey;
+    transition: .3s;
+    align-items: center;
+}
+
+.flexBoard2-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: .3s;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.flexBoard1-container {
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    transition: .3s;
+}
+
+.sec {
+    align-items: center;
+    margin: 15px;
+    padding: 25px;
+    transition: .3s;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
