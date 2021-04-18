@@ -1,7 +1,15 @@
 .body1 {
     background-color: ghostwhite;
 }
-
+.tablebox{
+    margin: 15px;
+    background:lightcyan;
+    padding: 25px;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 4px 8px darkgrey;
+    transition: .3s;
+    align-items: center;
+}
 .Sections {
     margin: 15px;
     background: #fff;
