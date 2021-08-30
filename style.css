@@ -1,5 +1,16 @@
-.body1 {
+body {
     background-color: ghostwhite;
+}
+nav img{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+nav {
+    padding-left: 20px;
+    background-color: #e3f2fd;
+    width: 100%;
+    
 }
 .tablebox{
     margin: 15px;

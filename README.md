@@ -1,3 +1,3 @@
-# My Portfolio
-## The Website is hosted using Github
-### https://ashwin-p-s.github.io/portfolio
+## My Social Media - Portfolio
+## The Website is hosted on Github
+### https://ashwin-p-s.github.io/socialmedia/
