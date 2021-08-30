@@ -1,16 +1,17 @@
 body {
     background-color: ghostwhite;
 }
+
 nav img{
     margin-right: 10px;
     width: 40px;
     height: 40px;
 }
+nav img:hover{width: 41px;height: 41px;cursor: pointer;}
 nav {
     padding-left: 20px;
     background-color: #e3f2fd;
     width: 100%;
-    
 }
 .tablebox{
     margin: 15px;
@@ -18,7 +19,6 @@ nav {
     padding: 25px;
     border: 1px solid #e7e7e7;
     box-shadow: 0 4px 8px darkgrey;
-    transition: .3s;
     align-items: center;
 }
 .Sections {
@@ -27,37 +27,32 @@ nav {
     padding: 25px;
     border: 1px solid #e7e7e7;
     box-shadow: 0 4px 8px darkgrey;
-    transition: .3s;
     align-items: center;
 }
-
-.flexBoard2-container {
+.FlexBoard-2 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    transition: .3s;
     justify-content: space-evenly;
     box-sizing: border-box;
 }
-
-.flexBoard1-container {
+.FlexBoard-2 img:hover{
+    cursor: pointer;
+    height: 101px;
+    width: 101px;
+}
+.FlexBoard-1{
     width: 100%;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
-    transition: .3s;
 }
-
 .sec {
     align-items: center;
     margin: 15px;
     padding: 25px;
-    transition: .3s;
 }
-
-*,
-:after,
-:before {
-    box-sizing: inherit;
-}
+.id img:hover{width: 201px;height: 201px;}
+#l{text-decoration: none;color:black}
+#l:hover{font-size: 101%;color: cornflowerblue;}
