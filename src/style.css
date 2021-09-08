@@ -7,11 +7,14 @@ nav img{
     width: 40px;
     height: 40px;
 }
-nav img:hover{width: 41px;height: 41px;cursor: pointer;}
+nav img:hover{cursor: pointer;}
+.connect:hover{cursor: pointer;color: blue;transition: 1s;font-weight: 2px;}
 nav {
     padding-left: 20px;
     background-color: #e3f2fd;
     width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px 0 #e7e7e7;
 }
 .tablebox{
     margin: 15px;
@@ -38,8 +41,6 @@ nav {
 }
 .FlexBoard-2 img:hover{
     cursor: pointer;
-    height: 101px;
-    width: 101px;
 }
 .FlexBoard-1{
     width: 100%;
@@ -53,6 +54,6 @@ nav {
     margin: 15px;
     padding: 25px;
 }
-.id img:hover{width: 201px;height: 201px;}
+.id img:hover{width: 201px;height: 201px;transition: 1s;}
 #l{text-decoration: none;color:black}
 #l:hover{font-size: 101%;color: cornflowerblue;}
